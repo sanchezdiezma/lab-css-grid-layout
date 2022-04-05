@@ -1,0 +1,109 @@
+:root {
+    --racing-white: #fff;
+    --racing-red: #c80502;
+    --racing-dark: #343a40;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Mulish', sans-serif;
+    
+}
+
+header .header-nav__container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 100px;
+    background-image: url('./img/static-elements/riders-image-top.d3a6f525.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.header-nav__container .nav-container {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+    
+    
+.nav-container .nav-container__li  {
+   width: 100%;
+   min-width: 320px;
+   list-style: none;
+}
+   
+
+.nav-container .nav-container__li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 2rem;
+    color: var(--racing-white);
+}
+
+.container-li__line {
+    content: "";
+    display: block;
+    background-color: var(--racing-red);
+    width: 25%;
+    height: 5px;
+    margin-top: 6px;
+    border-radius: 8px;
+}
+
+
+.nav-container__li img {
+   width: 33%;
+   margin: 25px;
+    
+}
+
+.main-back__container {
+    background-color:var(--racing-dark);
+    width: 100%;
+    height: 500px;
+}
+    
+    
+
+
+
+
+    
+
+    
+    
+   
+    
+   
+    
+
+   
+   
+    
+   
+     
+    
+
+    
+    
+
+
+
+    
+    
+    
+   
