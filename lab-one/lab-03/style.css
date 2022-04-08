@@ -1,0 +1,78 @@
+/* Lab-3
+Diseñar un grid layout utilizando las propiedades de grid area */
+
+
+:root {
+    --principal-bg: #fcffe1;
+    --light-green: greenyellow;
+    --mediun-green:#72cb10;
+    --high-green: #419f00;
+    --flag-green: #337900;
+}
+
+.contenedor {
+    background-color: var(--principal-bg);
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-areas: 
+    "one two two"
+    "three three four"
+    "five six seven";
+    place-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+   
+    
+.item {
+    font-size: 4rem;
+}
+    
+.item1 {
+    background-color: var(--light-green);
+    grid-area: one;
+}
+
+.item2 {
+    background-color: var(--mediun-green);
+    grid-area: two;
+}
+
+.item3 {
+    background-color: var(--high-green);
+    grid-area: three;
+}
+
+.item4 {
+    background-color: greenyellow;
+    grid-area: four;
+}
+
+.item5 {
+    background-color: greenyellow;
+    grid-area: five;
+}
+
+.item6 {
+    background-color: var(--mediun-green);
+    grid-area: six;
+}
+    
+.item7 {
+    background-color: var(--high-green);
+    grid-area: seven;
+}
+    
+
+
+    
+
+
+
+
+    
+    
+    
+    
+    
