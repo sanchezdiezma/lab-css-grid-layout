@@ -57,4 +57,3 @@ Ejercicios practicos repasando los fundamentos más basicos de CSS Grid Layout
 
 ![](https://i.imgur.com/aMZjYq6.jpg)
 
-👉  https://sanchezdiezma.github.io/lab-road-to-css-grid/
