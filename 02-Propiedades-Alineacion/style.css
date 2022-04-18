@@ -1,0 +1,36 @@
+
+
+.contenedor {
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    gap: 35px;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 250px 250px;
+    height: 600px;
+    place-content: center;
+    place-items: end;
+    
+}
+    
+    
+.item {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #00bcd4;
+    background: blue;
+    color: white;
+    font-size: 4rem;
+}
+    
+    
+    
+    
+   
+    
+    
+
+    
+    
+    
+    
