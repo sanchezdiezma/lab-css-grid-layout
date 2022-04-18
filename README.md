@@ -53,3 +53,6 @@ Ejercicios practicos repasando los fundamentos más basicos de CSS Grid Layout
 - `max-content`
 - `auto-fill`
 - `auto-fit`
+
+
+![](https://i.imgur.com/aMZjYq6.jpg)
